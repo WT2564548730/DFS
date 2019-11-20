@@ -40,7 +40,6 @@ LGraph CreateGraph(int n){
     
     return Graph;
 }
-
 //Insert an Edge(connect E->V1,E->V2)
 void InsertEdge(LGraph Graph,Edge E){
     ANode t=new AdjVNode,p=Graph->G[E->V1].head;
